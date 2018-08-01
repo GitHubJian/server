@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJian/server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJian/server/issues"
+  },
+  "homepage": "https://github.com/GitHubJian/server#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "glob": "^7.1.2",
+    "koa": "^2.5.2"
+  }
+}
