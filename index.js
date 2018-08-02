@@ -1,3 +1,4 @@
-module.exports = ~process.argv.indexOf('dev')
-    ? require('./dev')
-    : require('./main');
+const server = require('./dist/server');
+const config = require('./config');
+
+server(config, {});

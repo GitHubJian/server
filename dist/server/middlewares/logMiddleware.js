@@ -1,5 +1,5 @@
-const logger = require('../utils/logger');
-const time = require('../utils/time');
+const logger = require('../../utils/logger');
+const time = require('../../utils/time');
 
 module.exports = function(config, app) {
     return async (ctx, next) => {

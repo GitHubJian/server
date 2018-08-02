@@ -2,7 +2,7 @@
 
 const koa = require('koa');
 const koaBody = require('koa-body');
-const logger = require('./utils/logger');
+const logger = require('../utils/logger');
 
 const {
     actionsMiddleware,

@@ -19,16 +19,23 @@ projectConfig = Object.assign({}, projectConfig);
 const pathConfig = Object.assign(
     {
         root: rootPath,
+        nodeModulePath: resolve(rootPath, 'node_modules'),
         NODE_CONFIG_DIR: resolve(rootPath, 'server/config'),
         favicon: resolve(__dirname, 'favicon.ico'),
         temp: tempPath,
+        tpl: resolve(tempPath, 'tpl'),
+        dll: resolve(tempPath, 'dll'),
         static: resolve(rootPath, 'static'),
         src: resolve(rootPath, 'src'),
         global: resolve(rootPath, 'src/global.js'),
-        pages: resolve(rootPath, 'src/pages')
+        build: resolve(rootPath, 'static'),
+        pages: resolve(rootPath, 'src/pages'),
+        extra: resolve(rootPath, 'src/extra.js')
     },
     projectConfig.pathConfig
 );
+
+pathConfig.dllVersion = resolve(pathConfig.dll, 'version.json');
 
 module.exports = {
     NODE_ENV,
