@@ -88,4 +88,5 @@ module.exports = {
         'no-plusplus': [0], // 不使用 ++
         'operator-assignment': [0] // 操作符能简写就简写 += -= *= /=
     }
+    
 };

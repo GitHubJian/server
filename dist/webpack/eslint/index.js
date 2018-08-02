@@ -8,6 +8,7 @@ module.exports = {
     include: file => {
         if (file.includes('node_modules')) {
             return false;
+            
         }
         if (!file.startsWith(pathConfig.src)) {
             return false;
