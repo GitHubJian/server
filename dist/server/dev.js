@@ -59,7 +59,7 @@ module.exports = function(config, customMiddlewares = {}) {
 
     // webpack
     checkMiddleware('beforeAssert');
-    app.use(webpackMiddleware(config, app));
+    //app.use(webpackMiddleware(config, app));
     checkMiddleware('afterAssert');
 
     // Start

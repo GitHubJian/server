@@ -1,5 +1,5 @@
 /* url 访问权限 */
-const signature = require('../utils/signature');
+const signature = require('../../utils/signature');
 const fetch = require('node-fetch');
 
 const UPM_URI = '';

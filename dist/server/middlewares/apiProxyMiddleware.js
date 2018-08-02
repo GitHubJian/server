@@ -3,7 +3,7 @@
 const url = require('url');
 const koaProxy = require('koa-proxy');
 const koaConvert = require('koa-convert');
-const logger = require('../utils/logger');
+const logger = require('../../utils/logger');
 
 module.exports = function({ apiConfig }) {
     let paths = apiConfig && Object.keys(apiConfig);

@@ -7,7 +7,7 @@ const {
     projectConfig
 } = require('../config');
 
-const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus.length });
+const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length });
 
 const createHappyPlugin = (id, loaders) => {
     return new HappyPack({

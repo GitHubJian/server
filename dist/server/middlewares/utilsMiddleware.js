@@ -1,4 +1,4 @@
-const signature = require('../utils/signature');
+const signature = require('../../utils/signature');
 
 module.exports = function(config) {
     return async (ctx, next) => {

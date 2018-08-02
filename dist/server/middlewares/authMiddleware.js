@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const signature = require('../utils/signature');
+const signature = require('../../utils/signature');
 
 const ssoApiHost = '';
 const login_redirect_uri = '';

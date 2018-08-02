@@ -1,4 +1,4 @@
-const log = require('../utils/log');
+const log = require('../../utils/log');
 
 module.exports = function(config, app) {
     return async (ctx, next) => {
